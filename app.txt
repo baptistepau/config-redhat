@@ -1,5 +1,4 @@
 code
-discord
 evolution
 qt-creator
 gnome-shell-extension-appindicator
@@ -27,3 +26,4 @@ python3-pillow
 python3-pillow-devel
 python3-pillow-tk
 chromium
+tigervnc-server
