@@ -6,7 +6,6 @@ gnome-shell-extension-dash-to-dock
 gnome-tweaks
 gnome-extensions-app
 libreoffice
-firefox
 gimp
 htop
 vlc
@@ -26,4 +25,3 @@ python3-pillow
 python3-pillow-devel
 python3-pillow-tk
 chromium
-tigervnc-server
