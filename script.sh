@@ -37,8 +37,10 @@ while true; do
                 exit 1
             else 
                 apps=$(grep -v '^#' app.txt | tr '\n' ' ')
+                remove=$(grep -v '^#' remove.txt | tr '\n' ' ')
                 appflatpack=$(grep -v '^#' flapack.txt | tr '\n' ' ')
                 dnf update -y -q 
+                dnf remove -y -q $remove
                 dnf install -y -q $apps
                 flatpak install flathub $appflatpack -y > /dev/null 2>&1
                 reboot
