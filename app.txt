@@ -29,3 +29,12 @@ python3-pillow-tk
 chromium
 virt-manager 
 virt-viewer
+python3.12 
+python3.12-devel 
+python3.12-pip 
+python3.12-tkinter 
+python3.12-numpy 
+python3.12-ply 
+python3.12-requests 
+python3.12-setuptools-wheel 
+python3.12-wheel
