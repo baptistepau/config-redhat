@@ -38,3 +38,5 @@ python3.12-ply
 python3.12-requests 
 python3.12-setuptools-wheel 
 python3.12-wheel
+qt6-qtbase-devel 
+qt6-qttools-devel
